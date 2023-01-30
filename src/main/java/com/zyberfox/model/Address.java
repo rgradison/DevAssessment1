@@ -1,11 +1,9 @@
 
 package com.zyberfox.model;
 
-import java.util.HashMap;
-import java.util.Map;
 public class Address {
 
-    private String id;
+    //private String id;
     private Type type;
     private AddressLineDetail addressLineDetail;
     private ProvinceOrState provinceOrState;
@@ -14,15 +12,15 @@ public class Address {
     private String postalCode;
     private String lastUpdated;
     private String suburbOrDistrict;
-    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+   
 
-    public String getId() {
+    /*public String getId() {
         return id;
     }
 
     public void setId(String id) {
         this.id = id;
-    }
+    }*/
 
     public Type getType() {
         return type;
@@ -88,12 +86,14 @@ public class Address {
         this.suburbOrDistrict = suburbOrDistrict;
     }
 
-    public Map<String, Object> getAdditionalProperties() {
-        return this.additionalProperties;
-    }
+	@Override
+	public String toString() {
+		return "Address [type=" + type + ", addressLineDetail=" + addressLineDetail
+				+ ", provinceOrState=" + provinceOrState + ", cityOrTown=" + cityOrTown + ", country=" + country
+				+ ", postalCode=" + postalCode + ", lastUpdated=" + lastUpdated + ", suburbOrDistrict="
+				+ suburbOrDistrict + "]";
+	}
 
-    public void setAdditionalProperty(String name, Object value) {
-        this.additionalProperties.put(name, value);
-    }
+
 
 }
