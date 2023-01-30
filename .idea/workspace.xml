@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75752514-d406-49ec-9a77-04f11749b293" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.attach_pid59205" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="75752514-d406-49ec-9a77-04f11749b293" name="Changes" comment="added all the files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyberfox/CommonFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyberfox/CommonFactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyberfox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyberfox/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyberfox/PrintAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyberfox/PrintAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyberfox/CommonFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyberfox/gdc/GDCTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zyberfox/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyberfox/model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyberfox/model/AddressLineDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyberfox/model/AddressLineDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyberfox/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyberfox/model/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyberfox/model/ProvinceOrState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyberfox/model/ProvinceOrState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zyberfox/model/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyberfox/model/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/addresses.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/addresses.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,13 +75,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/zyberfox/model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CommonFactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zyberfox.CommonFactor" />
+  <component name="RunManager" selected="Application.GDCTest">
+    <configuration name="GDCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zyberfox.gdc.GDCTest" />
       <module name="DevAssessment1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zyberfox.*" />
+          <option name="PATTERN" value="com.zyberfox.gdc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,7 +94,7 @@
       <module name="DevAssessment1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zyberfox.*" />
+          <option name="PATTERN" value="com.zyberfox.gdc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,14 +113,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.CommonFactor" />
+      <item itemvalue="Application.GDCTest" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Remote JVM Debug.AssignmentDebugger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GDCTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.CommonFactor" />
       </list>
     </recent_temporary>
   </component>
@@ -145,8 +135,16 @@
       <workItem from="1674993321958" duration="5649000" />
       <workItem from="1675002013117" duration="463000" />
       <workItem from="1675002487893" duration="3645000" />
-      <workItem from="1675012825325" duration="30380000" />
+      <workItem from="1675012825325" duration="33532000" />
     </task>
+    <task id="LOCAL-00001" summary="added all the files">
+      <created>1675079023509</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675079023509</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +152,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added all the files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added all the files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
