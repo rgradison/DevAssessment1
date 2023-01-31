@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75752514-d406-49ec-9a77-04f11749b293" name="Changes" comment="updated the layout">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zyberfox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyberfox/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +149,7 @@
       <workItem from="1675002013117" duration="463000" />
       <workItem from="1675002487893" duration="3645000" />
       <workItem from="1675012825325" duration="54429000" />
-      <workItem from="1675149087807" duration="17800000" />
+      <workItem from="1675149087807" duration="18103000" />
     </task>
     <task id="LOCAL-00001" summary="added all the files">
       <created>1675079023509</created>
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675166666503</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updated the layout">
+      <created>1675167949281</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675167949281</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

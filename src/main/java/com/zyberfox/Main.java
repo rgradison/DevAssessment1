@@ -14,7 +14,7 @@ public class Main {
 
 		JSONParser parser = new JSONParser();
 		JSONArray a = (JSONArray) parser.parse(new FileReader("static/addresses.json"));
-
+		//Please uncomment to test each object
 		for (Object obj : a) {
 			//prettyPrintAddressFormat(createJavaObject(obj));
 			//printAddress(createJavaObject(obj));
