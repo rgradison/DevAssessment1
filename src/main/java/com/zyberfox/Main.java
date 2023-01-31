@@ -9,8 +9,10 @@ import java.io.FileReader;
 import java.util.Objects;
 
 public class Main {
+
 	public static void main(String[] args) throws Exception {
 		PrintAddress printAddress = new PrintAddress();
+
 
 		JSONParser parser = new JSONParser();
 		JSONArray a = (JSONArray) parser.parse(new FileReader("static/addresses.json"));
@@ -22,6 +24,7 @@ public class Main {
 	}
 
 	private static void createJavaObject(PrintAddress printAddress, Object obj) {
+		final ValidateAddress vAddress = new ValidateAddress();
 		Address address = new Address();
 		JSONObject addressObj = (JSONObject) obj;
 
@@ -59,10 +62,10 @@ public class Main {
 
 		address.setCountry(country);
 
-		//printAddress.validateAddress(address, addressObj);
-		printAddress.prettyPrintAddressFormat(address, addressObj);
-		System.out.println(printAddress.prettyPrintAddress(address));
-		printAddress.prettyPrintAddressType(address,addressObj);
+		vAddress.validateAddress(address);
+		//printAddress.prettyPrintAddressFormat(address, addressObj);
+		//System.out.println(printAddress.prettyPrintAddress(address));
+		//printAddress.prettyPrintAddressType(address,addressObj);
 		System.out.println("------------------------------------------------------------------------------------------------");
 
 	}
