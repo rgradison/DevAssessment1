@@ -17,7 +17,7 @@ public class GDCTest2 {
         }
         return result;
     }
-    // Function to return gcd of a and b
+    // Function to return gcd of result and element
     static int hcf(int result, int element)
     {
         if (result == 0)
