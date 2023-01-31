@@ -18,7 +18,8 @@ public class Main {
 		for (Object obj : a) {
 			//prettyPrintAddressFormat(createJavaObject(obj));
 			//printAddress(createJavaObject(obj));
-			prettyPrintAddressType(createJavaObject(obj));
+			//prettyPrintAddressType(createJavaObject(obj));
+			validateAddressFields(createJavaObject(obj));
 		}
 	}
 
@@ -32,8 +33,6 @@ public class Main {
 		PrintAddress printAddress = new PrintAddress();
 		System.out.println(printAddress.prettyPrintAddress(address));
 
-		//printAddress.prettyPrintAddressFormat(address, addressObj);
-		//vAddress.validateAddress(address);
 		System.out.println("------------------------------------------------------------------------------------------------");
 
 	}
@@ -43,6 +42,12 @@ public class Main {
 		printAddress.prettyPrintAddressType(address);
 
 		System.out.println("------------------------------------------------------------------------------------------------");
+
+	}
+
+	public static void validateAddressFields(Address address){
+		ValidateAddress vAddress = new ValidateAddress();
+		System.out.println(vAddress.validateAddress(address));
 	}
 
 
@@ -59,7 +64,7 @@ public class Main {
 		type.setCode((String) typeObj.get("code"));
 		type.setName((String) typeObj.get("name"));
 
-		if (Objects.nonNull((JSONObject) addressObj.get("addressLineDetail"))) {
+		if (Objects.nonNull(addressObj.get("addressLineDetail"))) {
 			JSONObject addressLineDetailObj = (JSONObject) addressObj.get("addressLineDetail");
 			AddressLineDetail addressLineDetail = new AddressLineDetail();
 			addressLineDetail.setLine1((String) addressLineDetailObj.get("line1"));
