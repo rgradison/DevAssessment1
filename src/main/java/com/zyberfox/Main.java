@@ -11,21 +11,45 @@ import java.util.Objects;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
-		PrintAddress printAddress = new PrintAddress();
-
 
 		JSONParser parser = new JSONParser();
 		JSONArray a = (JSONArray) parser.parse(new FileReader("static/addresses.json"));
 
 		for (Object obj : a) {
-			createJavaObject(printAddress, obj);
+			//prettyPrintAddressFormat(createJavaObject(obj));
+			//printAddress(createJavaObject(obj));
+			prettyPrintAddressType(createJavaObject(obj));
 		}
-
 	}
 
-	private static void createJavaObject(PrintAddress printAddress, Object obj) {
-		final ValidateAddress vAddress = new ValidateAddress();
+	public static void prettyPrintAddressFormat(Address address){
+		PrintAddress printAddress = new PrintAddress();
+		printAddress.prettyPrintAddressFormat(address);
+
+		System.out.println("------------------------------------------------------------------------------------------------");
+	}
+	public static void printAddress(Address address){
+		PrintAddress printAddress = new PrintAddress();
+		System.out.println(printAddress.prettyPrintAddress(address));
+
+		//printAddress.prettyPrintAddressFormat(address, addressObj);
+		//vAddress.validateAddress(address);
+		System.out.println("------------------------------------------------------------------------------------------------");
+
+	}
+	public static void prettyPrintAddressType(Address address){
+
+		PrintAddress printAddress = new PrintAddress();
+		printAddress.prettyPrintAddressType(address);
+
+		System.out.println("------------------------------------------------------------------------------------------------");
+	}
+
+
+	public static Address createJavaObject(Object obj) {
+
 		Address address = new Address();
+
 		JSONObject addressObj = (JSONObject) obj;
 
 		//address.setId((String) addressObj.get("id"));
@@ -62,12 +86,7 @@ public class Main {
 
 		address.setCountry(country);
 
-		vAddress.validateAddress(address);
-		//printAddress.prettyPrintAddressFormat(address, addressObj);
-		//System.out.println(printAddress.prettyPrintAddress(address));
-		//printAddress.prettyPrintAddressType(address,addressObj);
-		System.out.println("------------------------------------------------------------------------------------------------");
-
+		return address;
 	}
 
 }

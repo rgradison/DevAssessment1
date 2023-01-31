@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75752514-d406-49ec-9a77-04f11749b293" name="Changes" comment="added guide file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zyberfox/ValidateAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/Readme.md" afterDir="false" />
+    <list default="true" id="75752514-d406-49ec-9a77-04f11749b293" name="Changes" comment="Added a validation Class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zyberfox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyberfox/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zyberfox/PrintAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyberfox/PrintAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Notes on the project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/addresses.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/addresses.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +151,7 @@
       <workItem from="1675002013117" duration="463000" />
       <workItem from="1675002487893" duration="3645000" />
       <workItem from="1675012825325" duration="54429000" />
-      <workItem from="1675149087807" duration="11030000" />
+      <workItem from="1675149087807" duration="16525000" />
     </task>
     <task id="LOCAL-00001" summary="added all the files">
       <created>1675079023509</created>
@@ -192,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675144604108</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added a validation Class">
+      <created>1675161243758</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675161243758</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +208,8 @@
     <MESSAGE value="GDC example two" />
     <MESSAGE value="added comments" />
     <MESSAGE value="added guide file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added guide file" />
+    <MESSAGE value="Added a validation Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a validation Class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
