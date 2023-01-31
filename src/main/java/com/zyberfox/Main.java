@@ -11,7 +11,6 @@ import java.util.Objects;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
-
 		JSONParser parser = new JSONParser();
 		JSONArray a = (JSONArray) parser.parse(new FileReader("static/addresses.json"));
 		//Please uncomment to test each object
@@ -22,7 +21,6 @@ public class Main {
 			validateAddressFields(createJavaObject(obj));
 		}
 	}
-
 	public static void prettyPrintAddressFormat(Address address){
 		PrintAddress printAddress = new PrintAddress();
 		printAddress.prettyPrintAddressFormat(address);
@@ -44,12 +42,10 @@ public class Main {
 		System.out.println("------------------------------------------------------------------------------------------------");
 
 	}
-
 	public static void validateAddressFields(Address address){
 		ValidateAddress vAddress = new ValidateAddress();
 		System.out.println(vAddress.validateAddress(address));
 	}
-
 
 	public static Address createJavaObject(Object obj) {
 

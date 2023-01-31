@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75752514-d406-49ec-9a77-04f11749b293" name="Changes" comment="updated the layout">
+    <list default="true" id="75752514-d406-49ec-9a77-04f11749b293" name="Changes" comment="added a comment">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zyberfox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zyberfox/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +151,7 @@
       <workItem from="1675002013117" duration="463000" />
       <workItem from="1675002487893" duration="3645000" />
       <workItem from="1675012825325" duration="54429000" />
-      <workItem from="1675149087807" duration="18103000" />
+      <workItem from="1675149087807" duration="19337000" />
     </task>
     <task id="LOCAL-00001" summary="added all the files">
       <created>1675079023509</created>
@@ -207,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675167949281</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added a comment">
+      <created>1675168266197</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675168266197</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +231,8 @@
     <MESSAGE value="added guide file" />
     <MESSAGE value="Added a validation Class" />
     <MESSAGE value="updated the layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the layout" />
+    <MESSAGE value="added a comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a comment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

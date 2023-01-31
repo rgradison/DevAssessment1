@@ -2,9 +2,10 @@ Question1
 The solution is GDCTest2. gdc1 is another example.
 
 Question2
-1.The entry point is main.
-2.Created all the models under model.
-3.
+1.The entry point is main under gdc.
+
+2.Created all the models under model. Under zyberfox folder
+
 
 Dev Assessment 1
 
