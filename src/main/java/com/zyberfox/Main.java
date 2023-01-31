@@ -59,14 +59,11 @@ public class Main {
 
 		address.setCountry(country);
 
+		//printAddress.validateAddress(address, addressObj);
 		printAddress.prettyPrintAddressFormat(address, addressObj);
 		System.out.println(printAddress.prettyPrintAddress(address));
-		System.out.println("------------------------------------------------------------------------------------------------");
-
 		printAddress.prettyPrintAddressType(address,addressObj);
-
-		//printAddress.validateAddress(address, addressObj);
-
+		System.out.println("------------------------------------------------------------------------------------------------");
 
 	}
 
